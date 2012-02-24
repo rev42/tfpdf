@@ -12,7 +12,6 @@
         }
     ],
     "autoload": {
-        "psr-0": { "tFPDF\\src": "" }
-    },
-    "target-dir": "tFPDF/src"
+        "psr-0": { "tFPDF": "src/" }
+    }
 }
