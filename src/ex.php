@@ -20,7 +20,7 @@ $pdf->Write(8,$txt);
 // Sélectionne une police standard (utilise windows-1252)
 $pdf->SetFont('Arial','',14);
 $pdf->Ln(10);
-$pdf->Write(5,"La taille de ce PDF n'est que de 17 ko.");
+$pdf->Write(5,"La taille de ce PDF n'est que de 12 ko.");
 
 $pdf->Output();
 ?>
